@@ -53,7 +53,7 @@ $sitemap->add('http://foo.com', '2005-01-02', ChangeFrequency::WEEKLY, 1.0);
 $sitemap->add('http://foo.com/about', '2005-01-01');
 
 // Write it to a file
-file_put_contents('sitemap.xml', (string) $sitemap);
+file_put_contents('sitemaps.xml', (string) $sitemap);
 
 // or simply echo it:
 header ('Content-Type:text/xml');
